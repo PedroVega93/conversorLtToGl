@@ -1,0 +1,31 @@
+{
+  "name": "conversor",
+  "version": "0.1.0",
+  "description": "conversor de unidades de volumen",
+  "main": "dist/src/conversor.js",
+  "scripts": {
+    "build": "babel src/conversor.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetVega93/conversorLtToGl.git"
+  },
+  "keywords": [
+    "litro",
+    "galon",
+    "conversor"
+  ],
+  "author": "Pedro Vega <pedrovega_1949@htoamil.com> (https://www.linkedin.com/in/pedrovega93)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PetVega93/conversorLtToGl/issues"
+  },
+  "homepage": "https://github.com/PetVega93/conversorLtToGl#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
